@@ -14,6 +14,8 @@
 		04A9A2F41A6175D9005122E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A9A2F31A6175D9005122E5 /* Images.xcassets */; };
 		04A9A2F71A6175D9005122E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A9A2F51A6175D9005122E5 /* LaunchScreen.xib */; };
 		04A9A3031A6175D9005122E5 /* Multipeer_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9A3021A6175D9005122E5 /* Multipeer_ChatTests.swift */; };
+		04C700001A61796F002BBC83 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C7FFFF1A61796F002BBC83 /* MultipeerConnectivity.framework */; };
+		04C700021A618B06002BBC83 /* PeerFinderScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C700011A618B06002BBC83 /* PeerFinderScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		04A9A2FC1A6175D9005122E5 /* Multipeer ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multipeer ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A9A3011A6175D9005122E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A9A3021A6175D9005122E5 /* Multipeer_ChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multipeer_ChatTests.swift; sourceTree = "<group>"; };
+		04C700011A618B06002BBC83 /* PeerFinderScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerFinderScene.swift; sourceTree = "<group>"; };
+		04C7FFFF1A61796F002BBC83 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C700001A61796F002BBC83 /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +66,7 @@
 		04A9A2DB1A6175D9005122E5 = {
 			isa = PBXGroup;
 			children = (
+				04C7FFFF1A61796F002BBC83 /* MultipeerConnectivity.framework */,
 				04A9A2E61A6175D9005122E5 /* Multipeer Chat */,
 				04A9A2FF1A6175D9005122E5 /* Multipeer ChatTests */,
 				04A9A2E51A6175D9005122E5 /* Products */,
@@ -81,6 +87,7 @@
 			children = (
 				04A9A2E91A6175D9005122E5 /* AppDelegate.swift */,
 				04A9A2EE1A6175D9005122E5 /* ViewController.swift */,
+				04C700011A618B06002BBC83 /* PeerFinderScene.swift */,
 				04A9A2F01A6175D9005122E5 /* Main.storyboard */,
 				04A9A2F31A6175D9005122E5 /* Images.xcassets */,
 				04A9A2F51A6175D9005122E5 /* LaunchScreen.xib */,
@@ -217,6 +224,7 @@
 			files = (
 				04A9A2EF1A6175D9005122E5 /* ViewController.swift in Sources */,
 				04A9A2EA1A6175D9005122E5 /* AppDelegate.swift in Sources */,
+				04C700021A618B06002BBC83 /* PeerFinderScene.swift in Sources */,
 				04A9A2ED1A6175D9005122E5 /* Multipeer_Chat.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +417,7 @@
 				04A9A3081A6175D9005122E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A9A3091A6175D9005122E5 /* Build configuration list for PBXNativeTarget "Multipeer ChatTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				04A9A30B1A6175D9005122E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
