@@ -9,7 +9,7 @@
 
 import UIKit
 import MultipeerConnectivity
-
+/*
 class ViewController: UIViewController, MCBrowserViewControllerDelegate {
     
     @IBOutlet weak var chatView: UITextView!
@@ -105,9 +105,9 @@ class ViewController: UIViewController, MCBrowserViewControllerDelegate {
     }
     
 }
+*/
 
 
-/*
 class ViewController: UIViewController, MCBrowserViewControllerDelegate, MCSessionDelegate {
 
     let serviceType = "LCOC-Chat"
@@ -231,4 +231,4 @@ class ViewController: UIViewController, MCBrowserViewControllerDelegate, MCSessi
             
     }
 }
-*/
+
